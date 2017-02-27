@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 20)];
+    btn.titleLabel.text = @"测试";
+    [self.view addSubview:btn];
 }
 
 
