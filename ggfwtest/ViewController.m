@@ -20,7 +20,7 @@
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 20)];
     btn.titleLabel.text = @"测试";
     [self.view addSubview:btn];
-    //aaaaaa
+    //aaaaaabbbbb
 }
 
 
